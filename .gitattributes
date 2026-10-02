@@ -1,0 +1,8 @@
+# Normalise line endings in the repo; Windows batch files need CRLF to run reliably.
+* text=auto eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+*.task binary
+*.wasm binary

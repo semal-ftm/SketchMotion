@@ -1,0 +1,15 @@
+{
+  "name": "sketchmotion-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Headless-Chrome end-to-end checks (needs both servers running).",
+  "scripts": {
+    "test": "node run.mjs",
+    "test:main": "node run.mjs main",
+    "test:hand": "node run.mjs hand",
+    "test:denied": "node run.mjs denied"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}
